@@ -1,29 +1,23 @@
 @charset 'utf-8';
-// .slider{
-//     width: 29rem;
-//     height: 1rem;
-    
-//     background-color: $pale;
-// }
 
 .slider-input{
-    -webkit-appearance: none;
-    appearance: none;
-    width: 29rem;
-    height: 1rem;
-    background-color: $pale;
-    outline: none;
-    border-radius: 3rem;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 29rem;
+  height: 1rem;
+  background-color: $pale;  
+  outline: none;
+  border-radius: 3rem;
 }
 
-.slider-input::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    appearance: none;
-    width: 1.3rem;
-    height: 1.3rem;
-    background-color: $white;
-    outline: none;
-    border-radius: 3rem;
-    border: 1px solid $gray;
-    box-shadow: 0 0 3px 1px rgba(0,0,0,0.10);
+.slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 01.3rem;
+  height: 1.3rem;
+  background-color: $white;
+  outline: none;
+  border-radius: 3rem;
+  border: 1px solid $gray;
+  box-shadow: 0 0 3px 1px rgba(0,0,0,0.10);
 }

@@ -1,43 +1,43 @@
 @charset 'utf-8';
 
 .btn {
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
-    letter-spacing: 0.24px;
-    padding: 1.5rem 3.5rem;
-    border-radius: .1rem;
-    border: none;
-    background-color: $purple;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;  
+  letter-spacing: 0.24px; 
+  padding: 1.5rem 3.5rem; 
+  border-radius: .1rem; 
+  border: none; 
+  background-color: $purple;  
 }
 
 .btn-primary:hover {
-    background-color: $purple;
-    border: none;
-    background-color: $purple-lighter;
+  background-color: $purple;
+  border: none;
+  background-color: $purple-lighter;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active {
-    background-color: $purple-darker;
-    border-color: $purple;
+  background-color: $purple-darker;
+  border-color: $purple;
 }
 
 .btn:focus {
-    outline: #E4CEFF auto 5px;
+  outline: #E4CEFF auto 5px;
 }
 
 .btn-outline-secondary {
-    color: $green;
-    background-color: transparent;
-    border-radius: .1rem;
-    border: $green solid;
+  color: $green;
+  background-color: transparent;
+  border-radius: .1rem;
+  border: $green solid;
 }
-.btn-outline-secondary:hover{
-    background-color: $green;
-    border-color: $green;
-    color: white;
+.btn-outline-secondary:hover {
+  background-color: $green;  
+  border-color: $green;
+  color: white;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active {
-    background-color: $purple-darker;
-    border-color: $green;
+  background-color: $purple-darker;
+  border-color: $green;
 }
