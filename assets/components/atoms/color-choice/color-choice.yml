@@ -1,0 +1,9 @@
+title: color-choice
+name: color-choice
+variants:
+  - name: orange
+    title: orange
+  - name: green
+    title: green
+  - name: charcoal
+    title: charcoal

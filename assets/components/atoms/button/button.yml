@@ -1,0 +1,5 @@
+title: button
+name: button
+variants:
+  - name: secondary
+    title: secondary

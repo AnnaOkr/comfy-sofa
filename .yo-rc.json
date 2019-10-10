@@ -1,0 +1,10 @@
+{
+  "generator-toolbox": {
+    "promptValues": {
+      "repo": "git@github.com:AnnaOkr/comfy-sofa.git",
+      "atomic": "atoms<molecules<organisms",
+      "src": "assets/",
+      "dest": "build/"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@charset 'utf-8';
+.drag-btn{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3rem;
+    margin: 0.65rem;
+    background-color: white;
+    border-color: transparent;
+    border: 1px solid $gray;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.10);
+    transition: opacity .15s ease-in-out, color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
