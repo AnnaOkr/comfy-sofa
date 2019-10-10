@@ -26,18 +26,18 @@
 }
 
 .btn-outline-secondary {
-    color: $purple;
+    color: $green;
     background-color: transparent;
     border-radius: .1rem;
-    border: $purple solid;
+    border: $green solid;
 }
 .btn-outline-secondary:hover{
-    background-color: $purple;
-    border-color: $purple;
+    background-color: $green;
+    border-color: $green;
     color: white;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active {
     background-color: $purple-darker;
-    border-color: $purple;
+    border-color: $green;
 }
