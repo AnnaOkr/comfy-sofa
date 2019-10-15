@@ -1,17 +1,16 @@
 @charset 'utf-8';
 
 .btn {
+  padding: 1.5rem 3.5rem;
+  border: none;
   font-family: 'Merriweather', serif;
-  font-weight: 700;  
-  letter-spacing: 0.24px; 
-  padding: 1.5rem 3.5rem; 
-  border-radius: .1rem; 
-  border: none; 
-  background-color: $purple;  
+  font-weight: 700;
+  letter-spacing: 0.24px;
+  border-radius: 0.1rem;
+  background-color: $purple;
 }
 
 .btn-primary:hover {
-  background-color: $purple;
   border: none;
   background-color: $purple-lighter;
 }
@@ -22,17 +21,18 @@
 }
 
 .btn:focus {
-  outline: #E4CEFF auto 5px;
+  outline: #e4ceff auto 5px;
 }
 
 .btn-outline-secondary {
+  border: $green solid;
   color: $green;
   background-color: transparent;
-  border-radius: .1rem;
-  border: $green solid;
+  border-radius: 0.1rem;
 }
+
 .btn-outline-secondary:hover {
-  background-color: $green;  
+  background-color: $green;
   border-color: $green;
   color: white;
 }
