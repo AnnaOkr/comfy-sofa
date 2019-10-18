@@ -15,13 +15,13 @@
   background-color: $purple-lighter;
 }
 
+.btn-primary:focus {
+  outline: #e4ceff auto 5px;
+}
+
 .btn-primary:not(:disabled):not(.disabled):active {
   background-color: $purple-darker;
   border-color: $purple;
-}
-
-.btn-primary:focus {
-  outline: #e4ceff auto 5px;
 }
 
 .btn-outline-secondary {
