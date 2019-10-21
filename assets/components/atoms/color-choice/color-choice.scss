@@ -1,31 +1,69 @@
 @charset 'utf-8';
 
 .color-choices {
-  width: 180px;
+  width: 16rem;
 }
 
-.color-bullet {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 3rem;
-  margin: 0.65rem;
-  border-color: transparent;
-  transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+.btn-color {
+  padding: 1.2rem;
+  border-radius: 100px;
+  border: #fff solid 1px;
+  box-shadow: 0 0 0 2px #fff inset;
+  margin-right: 20px;
 }
 
-.color-bullet:hover {
-  border-color: transparent;
-  opacity: 0.8;
-  border: solid $gray;
-  transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
-.color-bullet:active {
-  border-color: transparent;
-  border: solid $gray;
-  transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
-.color-bullet-gray {
+.gray {
   background-color: $gray;
+  transition: 0.15s ease-in-out;
+}
+
+.orange {
+  background-color: $orange;
+  transition: 0.15s ease-in-out;
+}
+
+.green {
+  background-color: $green;
+  transition: 0.15s ease-in-out;
+}
+
+.charcoal {
+  background-color: $charcoal;
+  transition: 0.15s ease-in-out;
+}
+
+.gray:hover {
+  border: rgba(155, 155, 155, 0.6) solid 1px;
+  box-shadow: 0 0 0 2 #fff inset;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+.orange:hover {
+  border: rgba(155, 155, 155, 0.6) solid 1px;
+  box-shadow: 0 0 0 2 #fff inset;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+.green:hover {
+  border: rgba(155, 155, 155, 0.6) solid 1px;
+  box-shadow: 0 0 0 2 #fff inset;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+.charcoal:hover {
+  border: rgba(155, 155, 155, 0.6) solid 1px;
+  box-shadow: 0 0 0 2 #fff inset;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+*:focus {
+  outline: 0 !important;
 }
