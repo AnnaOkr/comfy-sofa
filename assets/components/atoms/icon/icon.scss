@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-$icon-size-base: 3rem;
+$icon-size-base: 2rem;
 
 .icon {
   display: inline-flex;
@@ -9,8 +9,8 @@ $icon-size-base: 3rem;
   align-items: center;
   position: relative;
   top: 0.11em;
-  width: 1em;
-  height: 1em;
+  width: 1.3em;
+  height: 1.3em;
   font-size: $icon-size-base;
   color: inherit;
 
@@ -20,4 +20,13 @@ $icon-size-base: 3rem;
     fill: currentColor;
     stroke: currentColor;
   }
+}
+
+#heart-icon {
+  transition: fill 0.15s ease-in-out;
+}
+
+#heart-icon:hover {
+  fill: $purple;
+  transition: fill 0.15s ease-in-out;
 }

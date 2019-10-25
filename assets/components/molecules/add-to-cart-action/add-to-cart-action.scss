@@ -5,15 +5,8 @@
   align-items: center;
 }
 
-.icon-favorit {
-  margin-left: 2.5rem;
+.icon-heart {
+  margin-left: 2.3rem;
 }
 
-#heart-icon {
-  transition: fill 0.15s ease-in-out;
-}
 
-#heart-icon:hover {
-  fill: $purple;
-  transition: fill 0.15s ease-in-out;
-}
