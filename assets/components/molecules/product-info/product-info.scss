@@ -1,1 +1,36 @@
 @charset 'utf-8';
+
+.container-detail {
+  display: flex;
+  align-items: left;
+}
+
+.super-title {
+  font-family: Merriweather-Bold;
+  font-size: 42px;
+  color: #000000;
+  letter-spacing: 0.36px;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+
+.price-subtitle {
+  font-family: OpenSans-Regular;
+  font-size: 34px;
+  color: $purple !important;
+  letter-spacing: 0.29px;
+  margin-bottom: 3rem;
+}
+
+.text-description {
+  font-family: OpenSans-Light;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.45px;
+  margin-top: 2rem;
+}
+
+.stronger {
+  font-family: Merriweather-Bold;
+  font-size: 13px;
+}
