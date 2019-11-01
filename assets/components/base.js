@@ -16,11 +16,35 @@ const init = () => {
 })(jQuery);
 document.addEventListener('ToolboxReady', () => init());
 
+// const rangeSlider = document.querySelector('.range-slider');
+// const rangeValueBar = document.querySelector('#range-value-bar');
+// const rangeValue = document.querySelector('#range-value');
 
-var slider = document.getElementById('slider')
-var element = document-getElementById('result')
-element.HTML = slider.value
+// let isDown = false;
 
-slider.oninput = function() {
-  element.HTML = this.value;
-}
+// function dragHandler() {
+//   isDown = !isDown;
+//   if (!isDown) {
+//     rangeValue.style.setProperty('opacity', '0');
+//   } else {
+//     rangeValue.style.setProperty('opacity', '1');
+//   }
+// }
+
+// function dragOn(e) {
+//   if (!isDown) return;
+//   rangeValueHandler();
+// }
+
+// function rangeValueHandler() {
+//   rangeValueBar.style.setProperty('width', `${rangeSlider.value}%`);
+//   rangeValue.style.setProperty('transform', `translateX(-${this.value}%)`);
+//   rangeValue.innerHTML = `${rangeSlider.value}%`;
+//   rangeValue.style.setProperty('left', `${rangeSlider.value}%`);
+// }
+
+// rangeValueHandler();
+// rangeSlider.addEventListener('mousedown', dragHandler);
+// rangeSlider.addEventListener('mousemove', dragOn);
+// rangeSlider.addEventListener('mouseup', dragHandler);
+// rangeSlider.addEventListener('click', rangeValueHandler);
