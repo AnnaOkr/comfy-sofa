@@ -3,8 +3,9 @@
 .cta-container {
   display: flex;
   align-items: center;
-}
 
-.icon-heart {
-  margin-left: 2.3rem;
+  .icon-heart {
+    margin-left: 2.3rem;
+    color: $purple;
+  }
 }
